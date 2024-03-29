@@ -1,0 +1,8 @@
+# Ignore the folder "test-album"
+test-album/
+
+# Ignore the .env file
+.env
+
+# Ignore the .cache folder
+.cache
