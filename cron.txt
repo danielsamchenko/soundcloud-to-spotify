@@ -1,0 +1,6 @@
+# Edit REPO_DIR to the absolute path of this repo.
+REPO_DIR=/path/to/soundcloud-to-spotify
+# Edit PYTHON if your python3 isn't in cron's PATH.
+PYTHON=python3
+
+0 12 1 * * cd "$REPO_DIR" && $PYTHON main.py >> "$REPO_DIR"/cron.log 2>&1

@@ -14,5 +14,10 @@ Set `output_dir` to the folder you want the MP3s saved to.
 ## Spotify Local Files
 In the Spotify desktop app, go to Settings and add `output_dir` under Local Files so the downloaded tracks appear.
 
+## Cron (Monthly)
+Edit `cron.txt` and set `REPO_DIR` (and `PYTHON` if needed). Then install it:
+`(crontab -l 2>/dev/null; cat cron.txt) | crontab -`
+Cron only runs when your Mac is on and awake; missed runs are not backfilled.
+
 ## Notes
 If SoundCloud returns 401, set `SOUNDCLOUD_CLIENT_ID` and retry.
