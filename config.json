@@ -1,0 +1,7 @@
+{
+  "output_dir": "./test-album",
+  "playlists": [
+    "https://soundcloud.com/daniel123231/sets/dummy-list",
+    "https://soundcloud.com/daniel123231/sets/dummy-list2"
+  ]
+}
